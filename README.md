@@ -50,6 +50,4 @@ Optionally set `APTACLIP_TRAIN`, `APTACLIP_TEST`, and `APTACLIP_OUTPUT` environm
 - Protein-anchored triplet loss: squared Euclidean distance between normalized projections, with margin selected on validation.
 - Classification BCE and triplet loss weighted by a validation-selected configuration.
 
-## Reproducibility limitations
 
-The uploaded manuscript contains tracked revisions and some inconsistent old/new descriptions (including optimization settings). The **supplied notebook cell** is the source of truth for this packaged implementation, not an inferred reconstruction from prose. Results depend on input data, pretrained model versions, GPU environment and CD-HIT. 
