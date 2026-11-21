@@ -1,0 +1,11 @@
+# Notebook-derived dependencies; install a compatible TensorFlow/PyTorch stack for your GPU.
+tensorflow>=2.15,<2.17
+torch>=2.2
+transformers>=4.37,<4.45
+accelerate>=0.26
+numpy>=1.26,<2
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.12
+h5py>=3.10
+ipython>=8
