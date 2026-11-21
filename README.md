@@ -34,7 +34,6 @@ From the repository root:
 python src/train.py
 ```
 
-Optionally set `APTACLIP_TRAIN`, `APTACLIP_TEST`, and `APTACLIP_OUTPUT` environment variables to change paths. The script executes a computationally expensive 7-configuration × 5-seed search, downloads two large pretrained encoders, and writes intermediate embeddings, weights, selection summaries and test predictions to the output directory. It may require more than a single small GPU.
 
 ## Architecture
 
