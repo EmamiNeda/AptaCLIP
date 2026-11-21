@@ -15,11 +15,6 @@ AptaCLIP/
 └── README.md
 ```
 
-## Provenance and scope
-
-The training script is adapted from **code cell 2** of the supplied `4_DNA_RNA_Strafication (2)(7).ipynb`, preserving its CD-HIT 50%-identity protein clustering, length-matched putative-negative sampling, 5-seed ensemble, validation-only hyperparameter/threshold selection, and held-out test evaluation. The model and sequence cleaning functions were extracted without changing their mathematical definitions. The full notebook also contains additional experiments and analyses **not** packaged in these five files.
-
-**Important:** The notebook's printed reference result is accuracy **0.7080**, ROC-AUC **0.7883**, AUPR **0.7520**, while the revised manuscript reports accuracy **0.7141**, ROC-AUC **0.7896**, AUPR **0.7340** for its primary independent test. These are not identical. This release should not be described as verified reproduction of every reported figure or metric until the original input CSVs, preprocessing, model selection and run outputs have been checked. No GPU end-to-end training was performed while preparing this repository.
 
 ## Setup
 
