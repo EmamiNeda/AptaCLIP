@@ -24,7 +24,7 @@ Use a Linux GPU environment (such as Colab), with `cd-hit` installed separately.
 pip install -r requirements.txt
 ```
 
-Provide **the exact original** `data/train_set.csv` and `data/test_set.csv` with `Target_Sequence`, `Aptamer_Sequence`, and `Class` columns. Do not upload confidential or unpublished data without permission. The notebook rebuilds a CD-HIT-based split from these files; it does not simply use the supplied split as the independent test.
+Provide **the exact original** `data/train_set.csv` and `data/test_set.csv` with `Target_Sequence`, `Aptamer_Sequence`, and `Class` columns.The notebook rebuilds a CD-HIT-based split from these files; it does not simply use the supplied split as the independent test.
 
 ## Run
 
